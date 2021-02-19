@@ -15,6 +15,10 @@
 		60BFCCFB25DF83AC00BD9A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BFCCF925DF83AC00BD9A83 /* LaunchScreen.storyboard */; };
 		60BFCD0625DF83AD00BD9A83 /* CollectionViewINSWiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD0525DF83AD00BD9A83 /* CollectionViewINSWiftUITests.swift */; };
 		60BFCD1125DF83AD00BD9A83 /* CollectionViewINSWiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD1025DF83AD00BD9A83 /* CollectionViewINSWiftUIUITests.swift */; };
+		60BFCD2225DF85D400BD9A83 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 60BFCD2125DF85D400BD9A83 /* Images */; };
+		60BFCD2725DF8E1E00BD9A83 /* GrideItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD2625DF8E1E00BD9A83 /* GrideItemView.swift */; };
+		60BFCD2F25DF982C00BD9A83 /* DessertsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD2E25DF982C00BD9A83 /* DessertsCollectionView.swift */; };
+		60BFCD3525DF994000BD9A83 /* DessertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFCD3425DF994000BD9A83 /* DessertModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		60BFCD0C25DF83AD00BD9A83 /* CollectionViewINSWiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewINSWiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BFCD1025DF83AD00BD9A83 /* CollectionViewINSWiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewINSWiftUIUITests.swift; sourceTree = "<group>"; };
 		60BFCD1225DF83AD00BD9A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BFCD2125DF85D400BD9A83 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		60BFCD2625DF8E1E00BD9A83 /* GrideItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrideItemView.swift; sourceTree = "<group>"; };
+		60BFCD2E25DF982C00BD9A83 /* DessertsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsCollectionView.swift; sourceTree = "<group>"; };
+		60BFCD3425DF994000BD9A83 /* DessertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +107,14 @@
 		60BFCCED25DF83AC00BD9A83 /* CollectionViewINSWiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				60BFCD3C25DF9E1700BD9A83 /* View */,
+				60BFCD3325DF992700BD9A83 /* Model */,
 				60BFCCEE25DF83AC00BD9A83 /* AppDelegate.swift */,
 				60BFCCF025DF83AC00BD9A83 /* SceneDelegate.swift */,
-				60BFCCF225DF83AC00BD9A83 /* ContentView.swift */,
 				60BFCCF425DF83AC00BD9A83 /* Assets.xcassets */,
 				60BFCCF925DF83AC00BD9A83 /* LaunchScreen.storyboard */,
 				60BFCCFC25DF83AC00BD9A83 /* Info.plist */,
+				60BFCD2125DF85D400BD9A83 /* Images */,
 				60BFCCF625DF83AC00BD9A83 /* Preview Content */,
 			);
 			path = CollectionViewINSWiftUI;
@@ -134,6 +144,24 @@
 				60BFCD1225DF83AD00BD9A83 /* Info.plist */,
 			);
 			path = CollectionViewINSWiftUIUITests;
+			sourceTree = "<group>";
+		};
+		60BFCD3325DF992700BD9A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCD3425DF994000BD9A83 /* DessertModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60BFCD3C25DF9E1700BD9A83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60BFCCF225DF83AC00BD9A83 /* ContentView.swift */,
+				60BFCD2625DF8E1E00BD9A83 /* GrideItemView.swift */,
+				60BFCD2E25DF982C00BD9A83 /* DessertsCollectionView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BFCD2225DF85D400BD9A83 /* Images in Resources */,
 				60BFCCFB25DF83AC00BD9A83 /* LaunchScreen.storyboard in Resources */,
 				60BFCCF825DF83AC00BD9A83 /* Preview Assets.xcassets in Resources */,
 				60BFCCF525DF83AC00BD9A83 /* Assets.xcassets in Resources */,
@@ -269,6 +298,9 @@
 				60BFCCEF25DF83AC00BD9A83 /* AppDelegate.swift in Sources */,
 				60BFCCF125DF83AC00BD9A83 /* SceneDelegate.swift in Sources */,
 				60BFCCF325DF83AC00BD9A83 /* ContentView.swift in Sources */,
+				60BFCD2725DF8E1E00BD9A83 /* GrideItemView.swift in Sources */,
+				60BFCD3525DF994000BD9A83 /* DessertModel.swift in Sources */,
+				60BFCD2F25DF982C00BD9A83 /* DessertsCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
